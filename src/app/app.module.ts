@@ -14,12 +14,12 @@ import { HomeComponent } from './home/home.component';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent }, // المسار الافتراضي
+  { path: '', component: HomeComponent }, 
   { path: 'products', component: ProductComponent },
   { path: 'fields', component: FieldsComponent },
   {path:'our-work', component:OurWorkComponent},
   { path: 'services', component: ServicesComponent },
-  { path: '**', redirectTo: '' , pathMatch:'full'} // في حالة وجود مسار غير صحيح، إعادة المستخدم للصفحة الرئيسية
+  { path: '**', redirectTo: '' , pathMatch:'full'} 
 ];
 @NgModule({
   declarations: [
