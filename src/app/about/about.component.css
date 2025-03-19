@@ -1,0 +1,81 @@
+#about{
+    background-image: url('../../assets/images/footer.png');
+    background-position: center;
+    background-size: cover;
+    color:white;
+    padding-block: 30px;
+}
+.row {
+    min-height: 100%; 
+}
+
+.about-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+}
+
+.about-col .image img {
+    max-width: 150px; 
+    margin-bottom: 15px;
+}
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+   
+}
+
+.social-icons a {
+    font-size: 20px;
+    padding: 8px;
+    margin: 5px;
+    transition: all 0.3s ease-in-out;
+    color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icons a:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+@media (max-width: 768px) {
+    .product-col {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .social-icons {
+        justify-content: center;
+        flex-wrap: wrap; 
+    }
+}
+.product-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    text-align: center; 
+}
+
+.product-col h6 {
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.product-col ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.product-col ul li {
+    margin-bottom: 5px;
+    font-size: 14px;
+}

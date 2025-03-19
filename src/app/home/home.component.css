@@ -1,0 +1,35 @@
+#home {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #08081E;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* يجعل المحتويات في المنتصف */
+    align-items: center; /* يضمن محاذاتها في المنتصف أفقياً */
+    text-align: center;
+    overflow: hidden;
+}
+
+.content{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center ;
+    text-align: center
+}
+.wave {
+    width: 100%;
+    height: auto;
+}
+
+.wave-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+

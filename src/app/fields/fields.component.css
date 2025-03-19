@@ -1,0 +1,7 @@
+#fields{
+    padding-block:40px
+}
+.image img{
+    height: 300px !important;
+    max-width: 300px;
+}

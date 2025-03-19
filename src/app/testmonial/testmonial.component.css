@@ -1,0 +1,19 @@
+#testimonials{
+    margin-block: 40px;
+}
+
+
+
+
+.carousel-indicators button {
+    background-color: #ccc;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.carousel-indicators .active {
+    background-color: var(--green-color);
+}

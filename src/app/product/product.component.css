@@ -1,0 +1,21 @@
+#product{
+    background-color: var(--main-color);
+    padding-block: 40px;
+}
+
+
+#product button{
+    border: 1px solid var(--green-color);
+    color: var(--green-color);
+    border-radius: 8px;
+
+}
+#product .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 15px;
+    background-color: white;
+    border-radius: 10px;
+}

@@ -1,0 +1,14 @@
+#service{
+    padding-block: 40px;
+}
+.image img{
+    height: 50px ;
+    max-width: 50px;
+}
+
+.service-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

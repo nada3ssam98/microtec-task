@@ -1,0 +1,37 @@
+
+.navbar{
+  background-color: #08081E;
+}
+.navbar .btn {
+    margin-left: auto;
+    color: #1A90B0;
+    background-color: white;
+    border: none;
+}
+
+.navbar .dropdown-toggle::after {
+    display: none !important;
+  }
+  
+
+img.logo{
+    width: 253px;
+    height: 32px;
+}
+
+@media (max-width: 991px) {
+    .navbar-collapse {
+      width: 100%;
+      background-color: #08081E; 
+      padding: 10px;
+    }
+  
+    .navbar-nav {
+      text-align: center;
+    }
+  
+    .dropdown-menu {
+      text-align: right;
+    }
+  }
+  

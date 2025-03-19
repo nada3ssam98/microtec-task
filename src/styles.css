@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+:root{
+    --main-color:#F9F9F9;
+    --green-color:#1A90B0;
+    --blue-color:#30486D;
+    --white-color:#FAFAFA
+}
+*{
+    text-decoration: none;
+    list-style: none;
+    font-size: 16px;
+
+}
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.text-color-blue{
+    color: var(--blue-color);
+}
+
+.text-color-green{  
+    color: var(--green-color);
+}
+.caption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+
+/* Extra small devices (phones) */
+@media (max-width: 576px) { 
+    body{
+        font-size: 14px;
+    }
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
