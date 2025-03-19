@@ -19,7 +19,7 @@ const routes: Routes = [
   { path: 'fields', component: FieldsComponent },
   {path:'our-work', component:OurWorkComponent},
   { path: 'services', component: ServicesComponent },
-  { path: '**', redirectTo: '' } // في حالة وجود مسار غير صحيح، إعادة المستخدم للصفحة الرئيسية
+  { path: '**', redirectTo: '' , pathMatch:'full'} // في حالة وجود مسار غير صحيح، إعادة المستخدم للصفحة الرئيسية
 ];
 @NgModule({
   declarations: [
